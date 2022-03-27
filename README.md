@@ -101,7 +101,7 @@ Any changes to files other than the following files will be rejected:**
 
 ### Compruebe si un carácter es un carácter hexadecimal válido.
 
-Complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) 's `isValidHexCharacter` , que verifica si un carácter dado es un carácter hexadecimal válido.
+Complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) `isValidHexCharacter` , que verifica si un carácter dado es un carácter hexadecimal válido.
 
 Un carácter válido es: carácter 0-9 y carácter A/a/B/b/C/c/D/d/E/e/F/f (sin distinción entre mayúsculas y minúsculas).
 
@@ -291,7 +291,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-hexadecimal-character` , чтобы загрузить код, завершите задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе.
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/run-mvn-verify-vscode.md) .
-    -   Крайне не рекомендуется: вы можете [щелкнуть здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-hexadecimal-character/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-hexadecimal-character/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
     -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-hexadecimal-character) , выполнить задание и создать запрос на включение.
 -   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
