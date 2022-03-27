@@ -7,6 +7,11 @@ public class Challenge {
         System.out.println("G is valid hex character: " + isValidHexCharacter('G'));
     }
 
+    /**
+     * A valid character is: character 0-9 and character A/a/B/b/C/c/D/d/E/e/F/f (case-insensitive).
+     *
+     * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
+     */
     public static boolean isValidHexCharacter(char ch) {
         return false;
     }
