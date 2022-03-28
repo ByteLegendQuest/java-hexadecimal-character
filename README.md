@@ -1,9 +1,9 @@
-## [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
+# [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
 
 <details open='true'>
 <summary>English</summary>
 
-### Check if a character is valid hex character.
+## Check if a character is valid hex character.
 
 Please complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java)'s `isValidHexCharacter`, which checks if a given character is a valid hex character.
 
@@ -37,7 +37,7 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>简体中文</summary>
 
-### 判断一个字符是不是十六进制字符
+## 判断一个字符是不是十六进制字符
 
 请完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java)中的`isValidHexCharacter`方法，判断一个给定字符是不是合法的十六进制字符。
 
@@ -69,7 +69,8 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>繁體中文</summary>
 
-### 檢查字符是否為有效的十六進製字符。
+檢查字符是否為有效的十六進製字符。
+-----------------
 
 請完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java)的`isValidHexCharacter` ，它檢查給定字符是否是有效的十六進製字符。
 
@@ -99,9 +100,10 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>Español</summary>
 
-### Compruebe si un carácter es un carácter hexadecimal válido.
+Compruebe si un carácter es un carácter hexadecimal válido.
+-----------------------------------------------------------
 
-Complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) `isValidHexCharacter` , que verifica si un carácter dado es un carácter hexadecimal válido.
+Complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) 's `isValidHexCharacter` , que verifica si un carácter dado es un carácter hexadecimal válido.
 
 Un carácter válido es: carácter 0-9 y carácter A/a/B/b/C/c/D/d/E/e/F/f (sin distinción entre mayúsculas y minúsculas).
 
@@ -129,7 +131,8 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>العربية</summary>
 
-### تحقق مما إذا كان الحرف هو حرف سداسي عشري صالح.
+تحقق مما إذا كان الحرف هو حرف سداسي عشري صالح.
+----------------------------------------------
 
 يُرجى إكمال [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) `isValidHexCharacter` ، والتي تتحقق مما إذا كان الحرف المحدد حرفًا سداسي عشري صالحًا.
 
@@ -159,7 +162,8 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>Português</summary>
 
-### Verifique se um caractere é um caractere hexadecimal válido.
+Verifique se um caractere é um caractere hexadecimal válido.
+------------------------------------------------------------
 
 Preencha o `isValidHexCharacter` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) , que verifica se um determinado caractere é um caractere hexadecimal válido.
 
@@ -169,11 +173,11 @@ Se o caractere fornecido for um caractere hexadecimal válido, retorne `true` , 
 
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-hexadecimal-character` para baixar o código, termine o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
-        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-hexadecimal-character/zip/refs/heads/main) se não gostar das operações do `git` .
     -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
-    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-hexadecimal-character) , finalizar o desafio e criar um pull request.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode fazer o fork [do repo](https://github.com/ByteLegendQuest/java-hexadecimal-character) , finalizar o desafio e criar uma pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
@@ -189,7 +193,8 @@ Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord]
 <details>
 <summary>Bahasa Indonesia</summary>
 
-### Periksa apakah karakter adalah karakter hex yang valid.
+Periksa apakah karakter adalah karakter hex yang valid.
+-------------------------------------------------------
 
 Harap lengkapi `isValidHexCharacter` dari [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) , yang memeriksa apakah karakter yang diberikan adalah karakter hex yang valid.
 
@@ -219,7 +224,8 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 <details>
 <summary>Français</summary>
 
-### Vérifiez si un caractère est un caractère hexadécimal valide.
+Vérifiez si un caractère est un caractère hexadécimal valide.
+-------------------------------------------------------------
 
 Veuillez compléter `isValidHexCharacter` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) , qui vérifie si un caractère donné est un caractère hexadécimal valide.
 
@@ -249,7 +255,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>日本語</summary>
 
-### 文字が有効な16進文字であるかどうかを確認してください。
+文字が有効な16進文字であるかどうかを確認してください。
+----------------------------
 
 [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java)の`isValidHexCharacter`を完了してください。これにより、指定された文字が有効な16進文字であるかどうかがチェックされます。
 
@@ -279,7 +286,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Русский</summary>
 
-### Проверьте, является ли символ допустимым шестнадцатеричным символом.
+Проверьте, является ли символ допустимым шестнадцатеричным символом.
+--------------------------------------------------------------------
 
 Пожалуйста, заполните [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) `isValidHexCharacter` , который проверяет, является ли данный символ допустимым шестнадцатеричным символом.
 
@@ -309,7 +317,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Deutsch</summary>
 
-### Prüfen Sie, ob ein Zeichen ein gültiges Hexadezimalzeichen ist.
+Überprüfen Sie, ob ein Zeichen ein gültiges Hexadezimalzeichen ist.
+-------------------------------------------------------------------
 
 Bitte vervollständigen Sie [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) 's `isValidHexCharacter` , das prüft, ob ein bestimmtes Zeichen ein gültiges Hexadezimalzeichen ist.
 
@@ -339,7 +348,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>한국어</summary>
 
-### 문자가 유효한 16진수 문자인지 확인하십시오.
+문자가 유효한 16진수 문자인지 확인하십시오.
+-------------------------
 
 주어진 문자가 유효한 16진수 문자인지 확인하는 [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) 의 `isValidHexCharacter` 를 완료하세요.
 
@@ -369,7 +379,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>Italiano</summary>
 
-### Controlla se un carattere è un carattere esadecimale valido.
+Controlla se un carattere è un carattere esadecimale valido.
+------------------------------------------------------------
 
 Si prega di completare [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-hexadecimal-character/blob/main/src/main/java/com/bytelegend/Challenge.java) 's `isValidHexCharacter` , che controlla se un determinato carattere è un carattere esadecimale valido.
 
