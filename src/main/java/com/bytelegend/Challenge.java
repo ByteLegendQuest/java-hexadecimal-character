@@ -13,11 +13,6 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        try {
-            Integer.parseInt(Character.toString(ch), 16);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
+        return false;
     }
 }
