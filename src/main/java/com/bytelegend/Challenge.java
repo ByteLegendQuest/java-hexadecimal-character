@@ -12,7 +12,9 @@ public class Challenge {
      *
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
-    public static boolean isValidHexCharacter(char ch) {
-        return false;
+      public static boolean isValidHexCharacter(char ch) {
+        String character = String.valueOf(ch);
+        String regex = "[0-9a-fA-F]";
+        return character.matches(regex);
     }
 }
