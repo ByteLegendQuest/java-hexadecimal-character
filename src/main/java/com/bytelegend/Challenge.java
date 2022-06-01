@@ -13,6 +13,12 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
+        Pattern hexy = Pattern.compile("[a-fA-F0-9]");
+        String test = String.valueOf(ch);
+        Matcher matcher = hexy.matcher(test);
+        if (matcher.find()) {
+            return true;
+        }
         return false;
     }
 }
