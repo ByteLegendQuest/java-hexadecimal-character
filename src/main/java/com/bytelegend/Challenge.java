@@ -13,15 +13,6 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        char[] hexCharactersArray = new char[] {
-                '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'a', 'B', 'b', 'C', 'c',
-                'D', 'd', 'E', 'e', 'F', 'f'
-        };
-        for (char c : hexCharactersArray) {
-            if (ch == c) {
-                return true;
-            }
-        }
         return false;
     }
 }
