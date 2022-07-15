@@ -17,7 +17,7 @@ public class Challenge {
                                 "A","a","B","b","C","c","D","d","E","e","F","f"]
 
         for (int i=0; i < hexList.length; i++) {
-            if(ch == hexList[i]) {
+            if(ch.equals(hexList[i])) {
                 return true;
             }
         }
