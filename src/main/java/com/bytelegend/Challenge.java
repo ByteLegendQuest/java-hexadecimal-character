@@ -13,6 +13,10 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        return false;
+        if (Character.isDigit(ch)) {
+            return true;
+        }
+        char chl = Character.toLowerCase(ch);
+        return chl >='a' && chl <= 'f';
     }
 }
