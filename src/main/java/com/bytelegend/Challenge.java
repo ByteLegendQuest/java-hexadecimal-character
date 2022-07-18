@@ -13,6 +13,9 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
+        if (ch >= '0' && a <= '9' || ch >= 'A' && a <= 'Z' || ch >= 'a' && a <= 'z') {
+            return true;
+        }
         return false;
     }
 }
