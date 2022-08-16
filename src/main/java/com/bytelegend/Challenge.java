@@ -13,7 +13,6 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        final String hexCharacter = "0123456789ABCDEFabcdef";
-        return hexCharacter.contains(String.valueOf(ch));
+        return false;
     }
 }
