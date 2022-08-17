@@ -13,6 +13,9 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        return false;
+        char lower = Character.toLowerCase(ch);
+        if (Character.isDigit(ch) || lower >= 'a' && lower <= 'f') {
+            return true;
+        } else return false;
     }
 }
