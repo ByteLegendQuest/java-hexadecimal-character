@@ -12,7 +12,7 @@ public class Challenge {
      *
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
-    public static boolean isValidHexCharacter(char str) {
+    public static boolean isValidHexCharacter(String str) {
         boolean flag = false;
         for (int i = 0; i < str.length(); i++) {
             char cc = str.charAt(i);
