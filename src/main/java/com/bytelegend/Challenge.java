@@ -14,21 +14,21 @@ public class Challenge {
      */
     public static boolean isValidHexCharacter(char ch) {
         char validChar = 48;
-        for (; validChar < 58; validChar++) {
+        for (;validChar < 58;validChar++) {
             System.out.println(validChar);
             if (validChar == ch) {
                 return true;
             }
         }
         validChar = 65;
-        for (; validChar < 71; validChar++) {
+        for (;validChar < 71;validChar++) {
             System.out.println(validChar);
             if (validChar == ch) {
                 return true;
             }
         }
         validChar = 97;
-        for (; validChar < 103; validChar++) {
+        for (;validChar < 103;validChar++) {
             System.out.println(validChar);
             if (validChar == ch) {
                 return true;
@@ -37,4 +37,3 @@ public class Challenge {
         return false;
     }
 }
-;
