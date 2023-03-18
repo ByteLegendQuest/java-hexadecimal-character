@@ -14,7 +14,7 @@ public class Challenge {
      */
     public static boolean isValidHexCharacter(char ch) {
         // 获取字符的ascii码
-        int ascii = (int) c;
+        int ascii = (int) ch;
         // 如果ascii码在48-57之间，表示是数字0-9
         // 如果ascii码在65-70之间，表示是大写字母A-F
         // 如果ascii码在97-102之间，表示是小写字母a-f
