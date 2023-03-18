@@ -13,6 +13,11 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        return false;
+        // 获取字符的ascii码
+        int ascii = (int) c;
+        // 如果ascii码在48-57之间，表示是数字0-9
+        // 如果ascii码在65-70之间，表示是大写字母A-F
+        // 如果ascii码在97-102之间，表示是小写字母a-f
+        return (ascii >= 48 && ascii <= 57) || (ascii >= 65 && ascii <= 70) || (ascii >= 97 && ascii <= 102);
     }
 }
