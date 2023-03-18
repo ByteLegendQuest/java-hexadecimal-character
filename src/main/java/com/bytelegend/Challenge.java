@@ -18,6 +18,6 @@ public class Challenge {
         // 如果ascii码在48-57之间，表示是数字0-9
         // 如果ascii码在65-70之间，表示是大写字母A-F
         // 如果ascii码在97-102之间，表示是小写字母a-f
-        return (ascii >= 48 && ascii <= 57) || (ascii >= 65 && ascii <= 70) || (ascii >= 97 && ascii <= 102);
+        return (ascii > 47 && ascii < 58) || (ascii > 64 && ascii < 71) || (ascii > 96 && ascii < 103);
     }
 }
