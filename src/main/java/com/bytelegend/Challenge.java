@@ -15,9 +15,15 @@ public class Challenge {
     public static boolean isValidHexCharacter(char ch) {
         // 获取字符的ascii码
         int ascii = (int) ch;
+        int zeroCode = 48;
+        int nineCode = 57;
+        int upperCaseACode = 65;
+        int upperCaseFCode = 70;
+        int lowerCaseACode = 97;
+        int lowerCaseFCode = 102;
         // 如果ascii码在48-57之间，表示是数字0-9
         // 如果ascii码在65-70之间，表示是大写字母A-F
         // 如果ascii码在97-102之间，表示是小写字母a-f
-        return (ascii > 47 && ascii < 58) || (ascii > 64 && ascii < 71) || (ascii > 96 && ascii < 103);
+        return (ascii >= zeroCode && ascii <= nineCode) || (ascii >= upperCaseACode && ascii <= upperCaseFCode) || (ascii >= lowerCaseACode && ascii <= lowerCaseFCode);
     }
 }
