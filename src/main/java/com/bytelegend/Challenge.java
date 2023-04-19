@@ -13,7 +13,7 @@ public class Challenge {
      * <p>If the given character is a valid hex character, return `true`, otherwise return `false`.
      */
     public static boolean isValidHexCharacter(char ch) {
-        char[] chars = {'0','1','2','3','4','5','7','8','9','A','a','B','b','C','c','D','d','E','e','F','f'};
+        char[] chars = {'0','1','2','3','4','5','6','7','8','9','A','a','B','b','C','c','D','d','E','e','F','f'};
         for (int i = 0; i < chars.length; i++) {
             if (ch == chars[i]){
                 return true;
