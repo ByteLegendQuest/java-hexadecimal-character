@@ -19,7 +19,7 @@ public class Challenge {
         if (ch == 'D' || ch == 'd') return true;
         if (ch == 'E' || ch == 'e') return true;
         if (ch == 'F' || ch == 'f') return true;
-        if (ch > '0' && ch < '9') return true;
+        if (ch >= '0' && ch <= '9') return true;
         return false;
     }
 }
